@@ -1,0 +1,65 @@
+nav{
+    background-color: #48484b;
+    justify-content: center;
+    gap: 35px;
+    display: flex;
+    padding: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+a{
+    color: #d4d4d4;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+.fa-brands{
+    color: #d4d4d4;
+}
+.fa-solid{
+    color: #d4d4d4;
+}
+#shopping{
+    color: #d4d4d4;
+}
+.iPhone{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    color: #000;
+}
+.meet{
+    text-align: center;
+    font-size: 40px;
+    font-family:"Inter", sans-serif;
+    color: #000;
+    
+}
+.button{
+    background-color: #0071e3;
+    padding:  10px 20px 10px 20px;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+}
+#button{
+    
+    padding:  10px 20px 10px 20px;
+    border-radius: 50px;
+    color: #0071e3;
+    border-color: #0071e3;
+    font-size: 20px;
+}
+.container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
