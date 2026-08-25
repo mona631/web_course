@@ -1,0 +1,118 @@
+nav{
+    background-color: #c2c0c1;
+    width: 90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 4px;
+}
+
+h1{
+    margin: 10px;
+}
+input{
+    width:40% ;
+    padding: 5px;
+    border: #000 2px solid;
+}
+
+*{
+    margin: 0 auto;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+    
+}
+
+#login{
+    background-color: #3c71d1;  
+    color: #fff;
+    padding: 4px 10px; 
+    box-shadow: #000207  3px 3px 0px;
+    border: 2px solid black;
+    
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+
+}
+.lift-side{
+    flex: 2 1;
+}
+.right-side{
+    padding: 5px;
+    flex: 1 1;
+    border:2px solid #000;
+    margin: 20px 0 0;
+
+}
+
+.first-box{
+    border:2px solid #000;
+    margin: 20px 15px 0 0;
+    padding: 15px;
+    display: flex;
+}
+.welcome{
+    flex: 1 1;
+    margin: 0 14px;
+}
+.ninja-bio{
+    flex: 2 1;
+
+
+}
+
+
+a{
+    color: rgb(0, 89, 255);
+}
+.likes{
+    background-color: rgb(243, 195, 90);
+    box-shadow: #000207   2px 2px;
+    border: 2px solid black;
+    padding: 5px 7px;
+    font-weight: bold;
+}
+.btn{
+    background: rgb(67, 165, 88);
+    box-shadow: #000207   2px 2px;
+    border: 2px solid black;
+    padding: 5px 7px;
+    font-weight: bold;
+    margin: 12px;
+    width: 90%;
+}
+.like{
+    background-color: rgb(243, 195, 90);
+    box-shadow: #000207   2px 2px;
+    border: 2px solid black;
+    padding: 5px 7px;
+    font-weight: bold;
+
+}
+p{
+   font-weight: bold;
+   margin: 10px 0;
+   
+}
+main{
+    width: 80%;
+}
+
+
+.down-box{
+    border:2px solid #000;
+    padding: 25px;
+    margin-top: 30px;
+    
+}
+.down-header{
+    display: flex;
+    justify-content:center;
+    margin-bottom:15px ;
+    align-items:center;
+}

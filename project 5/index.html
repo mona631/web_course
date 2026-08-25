@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Activity</h1>
+        <input type="text" class="search" placeholder="search">
+        <button onclick="changeinnertext(this)" id="login">Login</button>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="lift-side">
+                <div class="first-box">
+
+                    <div class="welcome">
+                        <h2>WElcome</h2>
+                        <em>noun</em>
+                        <p>Plural: <em>Engineers</em></p>
+                        <button class="likes" onclick="showAlart()">13 likes</button>
+                    </div>
+
+                    <div class="ninja-bio">
+                        <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                    </div>
+
+                </div>
+
+                  <div class="first-box">
+
+                    <div class="welcome">
+                        <h2>Engineer</h2>
+                        <em>noun</em>
+                        <p>Plural: <em>Engineers</em></p>
+                        <button class="likes" onclick="showAlart()">37 likes</button>
+                    </div>
+
+                    <div class="ninja-bio">
+                        <p>A programmer who breaks down problems with <a href="">Zen</a>-like</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right-side">
+
+                <div class="right-box">
+                    <p>JavaScript is defined by YOU</p>
+                    <button onclick="remove(this)" class="btn">Add Definition</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="down-box">
+
+            <div class="down-header">
+                <h3>Some User <span id="like">3</span> like (3)</h3>
+                <button onclick="addlikes()" class="like">Like</button>
+            </div>
+
+            <div class="down-body">
+                <p>This is some filler text, it can say anything we like</p>
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+<script src="main.js"></script>
+</html>
